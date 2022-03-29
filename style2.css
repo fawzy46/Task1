@@ -22,9 +22,8 @@ img {
 table{
 	border-collapse: collapse;
 	position: relative;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
+	margin-left: auto;
+	margin-right:auto;
 	box-sizing: border-box;
 }
 body {
