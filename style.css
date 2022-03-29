@@ -1,0 +1,44 @@
+h1, label {
+	font-family: Source Sans Pro;
+
+}
+h1 {
+	font-size: 28;
+}
+input {
+	
+	border: 1px solid #e3e3e3;
+	border-radius: 9px;	
+}
+.txt{
+	
+	width: 80%;
+	height: 10%;
+}
+.maindiv {
+	border-radius: 16px;
+	width: 450px;
+	height:50%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	border: 1px solid #e3e3e3;
+	background-color: #fff;
+}
+h1,label,input{
+	 margin-left: 40px;
+	 margin-top: 30px;
+}
+.submit{
+	background-color: #f44336;
+	color: white;
+	padding: 9px;
+	width: 80%;
+}
+body {
+  background-image: url('sumerge.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
