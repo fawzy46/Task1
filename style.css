@@ -5,7 +5,7 @@ h1, label {
 h1 {
 	font-size: 28;
 }
-input {
+input,button {
 	
 	border: 1px solid #e3e3e3;
 	border-radius: 9px;	
@@ -15,11 +15,12 @@ input {
 	width: 80%;
 	height: 10%;
 }
+
 .maindiv {
 	border-radius: 16px;
 	width: 450px;
 	height:450px;
-	position: absolute;
+	position: relative;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
@@ -31,11 +32,13 @@ h1,label,input{
 	 margin-left: 40px;
 	 margin-top: 30px;
 }
-.submit{
+button{
 	background-color: #f44336;
 	color: white;
 	padding: 9px;
-	width: 80%;
+	width: 60%;
+	margin-left: 85px;
+	margin-top: 30px;
 }
 body {
   background-image: url('sumerge.jpg');
