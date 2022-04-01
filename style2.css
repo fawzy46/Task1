@@ -11,6 +11,7 @@ td {
 }
 .cell:hover{
   backdrop-filter: blur(7px);
+  cursor: pointer;
 }
 th {
   background-color: #f44336;
