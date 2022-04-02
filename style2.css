@@ -1,5 +1,5 @@
 th,td {
-	#border:1px solid white;
+	
 	color: white;
 	border-bottom: 1px solid #ddd;
 	font-size: 20px;
@@ -31,7 +31,4 @@ body {
   background-image: url('sumerge.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-}
-div{
-	#filter: blur(20px);
 }
